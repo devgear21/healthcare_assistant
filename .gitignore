@@ -1,0 +1,41 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*_test.py
+*_debug.py
+temp_*
+debug_*
+simple_*
+working_*
+final_*
+GITHUB_UPLOAD_GUIDE.md
+PROJECT_STATUS.md
+DEPLOYMENT_SUCCESS.md
+FIXES_APPLIED.md
+FINAL_STATUS.md
+
+# Streamlit
+.streamlit/

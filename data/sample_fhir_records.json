@@ -1,0 +1,155 @@
+{
+  "patients": [
+    {
+      "id": "patient-001",
+      "name": "John Smith",
+      "age": 45,
+      "gender": "male",
+      "contact": {
+        "phone": "+1-555-0123",
+        "email": "john.smith@email.com"
+      },
+      "medical_history": [
+        {
+          "condition": "Hypertension",
+          "diagnosed": "2020-03-15",
+          "status": "active"
+        },
+        {
+          "condition": "Type 2 Diabetes",
+          "diagnosed": "2019-11-22",
+          "status": "active"
+        }
+      ],
+      "medications": [
+        {
+          "name": "Lisinopril",
+          "dosage": "10mg",
+          "frequency": "daily"
+        },
+        {
+          "name": "Metformin",
+          "dosage": "500mg",
+          "frequency": "twice daily"
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "emergency_contact": {
+        "name": "Jane Smith",
+        "relationship": "spouse",
+        "phone": "+1-555-0124"
+      }
+    },
+    {
+      "id": "patient-002",
+      "name": "Mary Johnson",
+      "age": 32,
+      "gender": "female",
+      "contact": {
+        "phone": "+1-555-0234",
+        "email": "mary.johnson@email.com"
+      },
+      "medical_history": [
+        {
+          "condition": "Asthma",
+          "diagnosed": "2015-06-10",
+          "status": "active"
+        }
+      ],
+      "medications": [
+        {
+          "name": "Albuterol Inhaler",
+          "dosage": "90mcg",
+          "frequency": "as needed"
+        }
+      ],
+      "allergies": ["Shellfish", "Latex"],
+      "emergency_contact": {
+        "name": "Robert Johnson",
+        "relationship": "husband",
+        "phone": "+1-555-0235"
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt-001",
+      "patient_id": "patient-001",
+      "doctor": "Dr. Sarah Wilson",
+      "date": "2025-07-25",
+      "time": "10:00 AM",
+      "type": "routine_checkup",
+      "status": "scheduled"
+    },
+    {
+      "id": "appt-002",
+      "patient_id": "patient-002",
+      "doctor": "Dr. Michael Brown",
+      "date": "2025-07-30",
+      "time": "2:30 PM",
+      "type": "specialist_consultation",
+      "status": "scheduled"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "dr-001",
+      "name": "Dr. Sarah Wilson",
+      "specialty": "Internal Medicine",
+      "available_slots": [
+        "2025-07-26 09:00 AM",
+        "2025-07-26 10:30 AM",
+        "2025-07-26 02:00 PM",
+        "2025-07-27 11:00 AM"
+      ]
+    },
+    {
+      "id": "dr-002",
+      "name": "Dr. Michael Brown",
+      "specialty": "Pulmonology",
+      "available_slots": [
+        "2025-07-28 09:30 AM",
+        "2025-07-28 01:00 PM",
+        "2025-07-29 10:00 AM"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are your office hours?",
+      "answer": "Our office is open Monday through Friday from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 2:00 PM. We are closed on Sundays and major holidays."
+    },
+    {
+      "question": "How do I cancel an appointment?",
+      "answer": "You can cancel your appointment by calling our office at least 24 hours in advance, or you can use our online portal. Please note that cancellations with less than 24 hours notice may incur a fee."
+    },
+    {
+      "question": "What insurance do you accept?",
+      "answer": "We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Cigna, UnitedHealthcare, and Medicare. Please contact our office to verify your specific plan coverage."
+    },
+    {
+      "question": "How do I request prescription refills?",
+      "answer": "You can request prescription refills through our patient portal, by calling our office, or by contacting your pharmacy directly. Please allow 2-3 business days for processing."
+    },
+    {
+      "question": "What should I bring to my appointment?",
+      "answer": "Please bring a valid photo ID, your insurance card, a list of current medications, and any relevant medical records or test results. Arrive 15 minutes early for check-in."
+    }
+  ],
+  "emergency_keywords": [
+    "chest pain",
+    "heart attack",
+    "shortness of breath",
+    "difficulty breathing",
+    "severe headache",
+    "stroke",
+    "unconscious",
+    "bleeding heavily",
+    "severe allergic reaction",
+    "suicide",
+    "overdose",
+    "can't breathe",
+    "severe pain",
+    "emergency"
+  ]
+}

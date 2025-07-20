@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-07-20T01:43:38.133459",
+    "patient_info": "Patient ID: patient-001\nName: John Smith\nAge: 45\nGender: male\nAllergies: Penicillin\nCurrent Medications: Lisinopril, Metformin\nEmergency Contact: Jane Smith (+1-555-0124)",
+    "symptoms": "This is a medical emergency",
+    "urgency_level": 6,
+    "alert_id": "EMRG_1752957818"
+  },
+  {
+    "timestamp": "2025-07-20T01:44:06.745758",
+    "patient_info": "Patient ID: patient-001\nName: John Smith\nAge: 45\nGender: male\nAllergies: Penicillin\nCurrent Medications: Lisinopril, Metformin\nEmergency Contact: Jane Smith (+1-555-0124)",
+    "symptoms": "call 911",
+    "urgency_level": 6,
+    "alert_id": "EMRG_1752957846"
+  }
+]

@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-community
+langsmith
+nomic
+streamlit
+groq
+python-dotenv
+requests
+pydantic
+langchain-groq
